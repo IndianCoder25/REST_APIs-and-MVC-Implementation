@@ -1,0 +1,25 @@
+{
+  "name": "expressmvcproject",
+  "version": "1.0.0",
+  "description": "MVC implementation in ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "debug": "set DEBUG=express:* & nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Kavan Thakar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
